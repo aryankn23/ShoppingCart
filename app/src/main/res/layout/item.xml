@@ -4,11 +4,18 @@
     android:layout_width="fill_parent" android:id="@+id/LinearLayoutItem">
     <ImageView android:layout_margin="5dip" android:id="@+id/ImageViewItem"
         android:layout_height="wrap_content" android:layout_width="100dip"></ImageView>
-    <TextView android:layout_width="wrap_content"
-        android:layout_height="wrap_content" android:layout_gravity="center"
-        android:layout_margin="5dip" android:id="@+id/TextViewItem"
-        android:textSize="26dip" android:text="Book Title" android:textColor="#000000"
-        android:minLines="2" android:maxWidth="150dip"></TextView>
+
+    <TextView
+        android:id="@+id/TextViewItem"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_margin="5dip"
+        android:maxWidth="150dip"
+        android:minLines="2"
+        android:text="TshirtName"
+        android:textColor="#000000"
+        android:textSize="26dip"></TextView>
 
     <CheckBox android:layout_height="wrap_content"
         android:layout_margin="5dip" android:id="@+id/CheckBoxSelected"
